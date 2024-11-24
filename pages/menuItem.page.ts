@@ -1,6 +1,6 @@
 import { expect, Locator, Page } from '@playwright/test';
 
-export class DeleteItemPage {
+export class MenuItemPage {
     readonly page: Page;
     readonly itemOptionsButton: Locator;
     readonly optionsButton: Locator;

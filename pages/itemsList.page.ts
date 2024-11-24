@@ -1,6 +1,6 @@
 import {expect, Locator, Page } from '@playwright/test';
 
-export class NewItemPage {
+export class ItemsListPage {
     readonly page: Page;
     readonly logo: Locator;
     readonly table: Locator; //MainTableRight
